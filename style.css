@@ -142,3 +142,46 @@ body {
     font-size: 18px;
     padding-top: 1rem;
 }
+
+/* section 4 below */
+.section4 {
+    display: flex;
+    flex-direction: column;
+    padding: 5em;
+    align-items: center;
+}
+
+.call-to-action {
+    flex: 1;
+    display: flex;
+    background-color: #3882F6;
+    gap: 10rem;
+    padding: 3em 6em;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.call-to-action .sign-up {
+    border: solid #f9faf8 3px;
+    border-radius: 8px;
+}
+
+.action-text1 {
+    margin-bottom: 0.3rem;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action-text1, .action-text2 {
+    color: #f9faf8;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    color: #f9faf8;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+}
